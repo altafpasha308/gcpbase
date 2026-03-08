@@ -6,7 +6,7 @@ output "vpc_id" {
 output "vpc_name" {
   description = "The Name tag of the VPC"
   # The "Name" tag value can be accessed via the tags attribute
-  value       = google_compute_network.main-vpc.id
+  value       = google_compute_network.main-vpc.name
 }
 
 output "subnet_ids" {
