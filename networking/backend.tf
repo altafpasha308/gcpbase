@@ -1,7 +1,7 @@
 terraform {
   backend "gcs" {
-    credentials = "/home/amit23comp/sa.json"
-    bucket  = "amitow23test123"
-    prefix  = "student.01-network-state"
+    credentials = "/home/altafpasha308/booming-landing-489605-j3-37042cde3484.json"
+    bucket  = "altafgcpbuckettest135"
+    prefix  = "networkingstate"
   }
 }
